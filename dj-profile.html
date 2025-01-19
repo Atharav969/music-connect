@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DJ Dhumal - Book Now | MusicConnect</title>
+    <link rel="stylesheet" href="/project/style.css" />
+    <link rel="stylesheet" href="/project/profile.css" />
+</head>
+<body>
+    <div class="noise"></div>
+    <div id="app">
+        <header>
+            <nav>
+                <div class="logo">MusicConnect</div>
+                <ul class="nav-links">
+                    <li><a href="/project/index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#performances">Performances</a></li>
+                    <li><a href="#booking">Book Now</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="artist-hero">
+                <div class="artist-cover">
+                    <img src="/project/dhumal.jpg" alt="DJ Dhumal performing">
+                </div>
+                <div class="artist-info">
+                    <h1>DJ Dhumal</h1>
+                    <div class="artist-meta">
+                        <span class="rating">⭐ 4.9 (120 reviews)</span>
+                        <span class="category">Wedding DJ • Party DJ • Club DJ</span>
+                    </div>
+                    <p class="artist-bio">Experience the electrifying beats of DJ Dhumal, specializing in Bollywood, EDM, and fusion music. Perfect for weddings, corporate events, and club nights.</p>
+                </div>
+            </section>
+
+            <section id="about" class="about-section">
+                <h2>About DJ Dhumal</h2>
+                <div class="about-content">
+                    <div class="experience">
+                        <h3>Experience</h3>
+                        <ul>
+                            <li>10+ years of professional DJing</li>
+                            <li>500+ events performed</li>
+                            <li>International performances</li>
+                        </ul>
+                    </div>
+                    <div class="specialties">
+                        <h3>Music Specialties</h3>
+                        <ul>
+                            <li>Bollywood & Punjabi Hits</li>
+                            <li>Electronic Dance Music (EDM)</li>
+                            <li>Commercial House</li>
+                            <li>Retro & Classic Remixes</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="performances" class="performances-section">
+                <h2>Recent Performances</h2>
+                <div class="reels-container">
+                    <div class="reel">
+                        <div class="reel-content">
+                            <video loop muted>
+                                <source src="https://example.com/dhumal-performance-1.mp4" type="video/mp4">
+                            </video>
+                            <div class="reel-info">
+                                <h3>Wedding Reception</h3>
+                                <p>Taj Hotel, Mumbai</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reel">
+                        <div class="reel-content">
+                            <video loop muted>
+                                <source src="https://example.com/dhumal-performance-2.mp4" type="video/mp4">
+                            </video>
+                            <div class="reel-info">
+                                <h3>New Year's Eve</h3>
+                                <p>Club Illusion</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="booking" class="booking-section">
+                <h2>Book DJ Dhumal</h2>
+                <div class="booking-container">
+                    <form id="booking-form" class="booking-form">
+                        <div class="form-group">
+                            <label for="event-date">Event Date</label>
+                            <input type="date" id="event-date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="event-type">Event Type</label>
+                            <select id="event-type" required>
+                                <option value="">Select Event Type</option>
+                                <option value="wedding">Wedding</option>
+                                <option value="corporate">Corporate Event</option>
+                                <option value="birthday">Birthday Party</option>
+                                <option value="club">Club Night</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="duration">Duration (hours)</label>
+                            <select id="duration" required>
+                                <option value="4">4 Hours</option>
+                                <option value="6">6 Hours</option>
+                                <option value="8">8 Hours</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="venue">Venue Location</label>
+                            <input type="text" id="venue" placeholder="Enter venue address" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="notes">Special Requests</label>
+                            <textarea id="notes" rows="4" placeholder="Any specific songs or requirements?"></textarea>
+                        </div>
+                        <button type="submit" class="book-btn">Proceed to Payment</button>
+                    </form>
+                    <div class="booking-info">
+                        <div class="price-card">
+                            <h3>Booking Details</h3>
+                            <ul>
+                                <li>Base Rate: ₹25,000 for 4 hours</li>
+                                <li>Additional Hour: ₹5,000</li>
+                                <li>Equipment Included</li>
+                                <li>50% Advance Required</li>
+                            </ul>
+                            <p class="note">* Final price may vary based on event requirements</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="/project/profile.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MusicConnect - Find & Book Artists</title>
+    <link rel="stylesheet" href="/project/style.css" />
+</head>
+<body>
+    <div class="noise"></div>
+    <div id="app">
+        <header>
+            <nav>
+                <div class="logo">MusicConnect</div>
+                <ul class="nav-links">
+                    <li><a href="#discover">Discover</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#login" class="login-btn">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <h1 class="glitch-text">Find Your Perfect Artist</h1>
+                <p class="subtitle">Book musicians, DJs, bands, and singers for your next event</p>
+                <div class="search-container">
+                    <input type="text" placeholder="Search artists, bands, or music style..." />
+                    <button class="search-btn">Search</button>
+                </div>
+            </section>
+
+            <section id="categories" class="categories">
+                <h2>Browse by Category</h2>
+                <div class="category-grid">
+                    <div class="category-card">
+                        <div class="category-icon">🎸</div>
+                        <h3>Live Bands</h3>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon">🎧</div>
+                        <h3>DJs</h3>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon">🎤</div>
+                        <h3>Singers</h3>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon">🎻</div>
+                        <h3>Classical</h3>
+                    </div>
+                </div>
+            </section>
+
+            <section id="discover" class="discover">
+                <h2>Trending Artists</h2>
+                <div class="reels-container">
+                    <div class="reel">
+                        <div class="reel-content">
+                            <video loop muted>
+                                <source src="/project/dhumal-video.mp4" type="video/mp4">
+                            </video>
+                            <div class="reel-info">
+                                <h3>DJ Dhumal</h3>
+                                <div class="rating">⭐ 4.9</div>
+                                <p>3 Star Dhumal</p>
+                                <a href="/project/dj-profile.html">
+                                <button class="book-btn" src="dj-profile.html">Book Now</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reel">
+                        <div class="reel-content">
+                            <video loop muted>
+                                <source src="/project/dj.mp4" type="video/mp4">
+                            </video>
+                            <div class="reel-info">
+                                <h3>DJ</h3>
+                                <div class="rating">⭐ 4.8</div>
+                                <p>Rock/Pop Cover DJ</p>
+                                <button class="book-btn">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reel">
+                        <div class="reel-content">
+                            <video loop muted>
+                                <source src="/project/dhumal-video-2.mp4" type="video/mp4">
+                            </video>
+                            <div class="reel-info">
+                                <h3>TS DHUMAL</h3>
+                                <div class="rating">⭐ 5.0</div>
+                                <p>3 star dhumal</p>
+                                <a href="/project/dj-profile.html">
+                                <button class="book-btn">Book Now</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="how-it-works" class="how-it-works">
+                <h2>How It Works</h2>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h3>Browse & Choose</h3>
+                        <p>Explore artists' profiles and performance reels</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h3>Book & Pay Advance</h3>
+                        <p>Secure your booking with 25-50% advance payment</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h3>Connect & Enjoy</h3>
+                        <p>Chat with the artist and enjoy the performance</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cta">
+                <h2>Ready to get started?</h2>
+                <div class="cta-buttons">
+                    <button class="primary-btn">Find Artists</button>
+                    <button class="secondary-btn">List as Artist</button>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
