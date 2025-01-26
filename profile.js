@@ -72,6 +72,5 @@ durationSelect.addEventListener('change', () => {
     const additionalHours = Math.max(0, hours - 4);
     const totalPrice = 25000 + (additionalHours * 5000);
     
-    // Update price card if needed
-    // This could be enhanced to show real-time price updates
+   
 });
